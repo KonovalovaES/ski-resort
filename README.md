@@ -9,20 +9,26 @@
 
 # Стек
 <h4>Backend:</h4>
-<img src="./server/src/icons/js.svg" alt="JS logo" title="JS" height="25" style="max-width: 100%;">
-<img src="./server/src/icons/node.png" alt="NodeJS logo" title="NodeJS" height="25" style="max-width: 100%;">
-<img src="./server/src/icons/postgresql.png" alt="PostgreSQL logo" title="PostgreSQL" height="25" style="max-width: 100%;">
-<img src="./server/src/icons/sequelize.png" alt="Sequelize logo" title="Sequelize" height="25" style="max-width: 100%;">
-<img src="./server/src/icons/axios.png" alt="Axios logo" title="Axios" height="25" style="max-width: 100%;">
-<img src="./server/src/icons/jwt.svg" alt="JWT logo" title="JWT" height="25" style="max-width: 100%;">
+<div display="flex">
+  <img src="./server/src/icons/js.svg" alt="JS logo" title="JS" height="25" style="max-width: 100%;">
+  <img src="./server/src/icons/node.png" alt="NodeJS logo" title="NodeJS" height="25" style="max-width: 100%;">
+  <img src="./server/src/icons/postgresql.png" alt="PostgreSQL logo" title="PostgreSQL" height="25" style="max-width: 100%;">
+  <img src="./server/src/icons/sequelize.png" alt="Sequelize logo" title="Sequelize" height="25" style="max-width: 100%;">
+  <img src="./server/src/icons/axios.png" alt="Axios logo" title="Axios" height="25" style="max-width: 100%;">
+  <img src="./server/src/icons/jwt.svg" alt="JWT logo" title="JWT" height="25" style="max-width: 100%;">
+</div>
 
 <h4>Frontend:</h4>
-<img src="./server/src/icons/js.svg" alt="JS logo" title="JS" height="25" style="max-width: 100%;">
-<img src="./server/src/icons/html.png" alt="HTML logo" title="HTML" height="25" style="max-width: 100%;">
-<img src="./server/src/icons/react.png" alt="React logo" title="React" height="25" style="max-width: 100%;">
-<img src="./server/src/icons/redux.svg" alt="Redux logo" title="Redux" height="25" style="max-width: 100%;">
-<img src="./server/src/icons/react-query.svg" alt="ReactQuery logo" title="ReactQuery" height="25" style="max-width: 100%;">
-<img src="./server/src/icons/tailwind.png" alt="TailWind logo" title="TailWind" height="25" style="max-width: 100%;">
+<div display="flex">
+  <img src="./server/src/icons/js.svg" alt="JS logo" title="JS" height="25" style="max-width: 100%;">
+  <img src="./server/src/icons/html.png" alt="HTML logo" title="HTML" height="25" style="max-width: 100%;">
+  <img src="./server/src/icons/react.png" alt="React logo" title="React" height="25" style="max-width: 100%;">
+  <img src="./server/src/icons/redux.svg" alt="Redux logo" title="Redux" height="25" style="max-width: 100%;">
+  <img src="./server/src/icons/react-query.svg" alt="ReactQuery logo" title="ReactQuery" height="25" style="max-width: 100%;">
+  <img src="./server/src/icons/tailwind.png" alt="TailWind logo" title="TailWind" height="25" style="max-width: 100%;">
+</div>
 
 <h4>Others:</h4>
-<img src="./server/src/icons/openweather.png" alt="OpenWeather logo" title="OpenWeather" height="25" style="max-width: 100%;">
+<div display="flex">
+  <img src="./server/src/icons/openweather.png" alt="OpenWeather logo" title="OpenWeather" height="25" style="max-width: 100%;">
+</div>
