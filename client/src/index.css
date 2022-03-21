@@ -1,0 +1,128 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face{
+  font-family: 'Material Icons';
+  font-display: block;
+}
+
+@layer base{
+
+  input{
+    @apply outline-none
+  }
+
+}
+
+@layer components{
+
+  #root{
+    @apply h-screen w-full relative flex flex-col  bg-main bg-bottom bg-cover text-custom-navy
+  }
+
+  .myshadow{
+    @apply shadow-custom-navy shadow-md
+  }
+
+  .myblur{
+   @apply bg-white/60 myshadow rounded-lg
+ }
+
+  .date-input{
+    @apply p-2 text-center rounded-lg text-custom-navy font-medium myblur
+  }
+
+  .select-input{
+    @apply p-2 text-center rounded-lg text-custom-navy font-medium myblur
+  }
+
+  .basic-btn{
+    @apply p-2 text-white bg-custom-blue font-medium text-lg rounded-lg
+  }
+
+  .botmenu-btn{
+    @apply  p-4 flex items-center justify-center
+  }
+
+  .svg-bot{
+    @apply h-10 w-10
+  }
+
+  .slider-list-skipass{
+    @apply flex gap-2 p-[3px] self-stretch mx-2
+  }
+
+  .slider-list{
+    @apply flex gap-2 p-[3px] mb-2 mt-8 rounded-lg myblur
+  }
+
+  .slider-active-skipass{
+    @apply bg-white/60 myshadow rounded-lg
+  }
+
+  .slider-passive-skipass{
+    @apply text-custom-navy
+  }
+
+  .slider-panel{
+    @apply flex gap-2 mx-2
+  }
+
+  .slider-tab{
+    @apply w-full grow font-medium rounded-[10px] p-2
+  }
+
+  .slider-active{
+    @apply bg-white/60 shadow-custom-navy shadow-md rounded-lg
+  }
+
+  .slider-passive{
+    @apply text-custom-navy
+  }
+
+  .card {
+    @apply flex justify-between p-3 myblur mx-2
+  }
+
+  .card-avatar{
+    @apply w-24 h-24 rounded-[10px] justify-items-start myshadow
+  }
+  
+  .card-content{
+    @apply flex flex-col justify-around my-2
+  }
+
+  .card-name{
+    @apply text-xl font-bold
+  }
+
+  .card-info{
+    @apply text-base
+  }
+
+  .card-delete{
+    @apply flex p-2
+  }
+
+  .delete-btn{
+    @apply  h-6 w-6 self-center justify-self-center
+  }
+
+  .edit-input{
+    @apply p-2 rounded-lg bg-white/60 text-base text-custom-navy outline-none myshadow mx-2
+  }
+
+  .edit-label{
+    @apply p-2 text-base font-medium text-custom-navy
+  }
+
+  .file-button{
+    @apply w-full text-sm my-2
+    file:mr-4 file:py-2 file:px-2
+    file:rounded-lg
+    file:text-sm file:font-medium
+  file:bg-custom-gray/70 file:text-white
+    file:border-0 file:w-1/2
+  }
+}
